@@ -1,0 +1,298 @@
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+    
+    margin :0 auto;
+    padding: 0px;
+}
+body
+{
+    background: linear-gradient(rgb(252, 253, 221), rgb(228, 197, 172));
+}
+
+.grid-container > div
+{
+  /*border: solid;*/
+}
+
+#header
+{
+	grid-column: 1 / span 4;
+    text-align: center;
+
+}
+
+#Pic
+{
+    grid-column: 1/span2;
+    text-align: center;
+}
+
+#M
+{
+    width: 60%;
+
+    /*position: relative;*/
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+#PicTwo
+{
+
+    position: relative;
+    text-align: center;
+}
+#S1
+{
+    width: 40%;
+    
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+#S2
+{
+    width: 40%;
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+#source
+{
+    margin-top: 500px;
+    text-align: center;
+}
+
+
+
+#Material
+{
+    font-size: 110%;
+    font-family: cursive;
+
+    border: dotted rgb(211, 175, 108);
+    border-radius: 15px;
+    width: 250px;
+    height: 430px;
+
+    /*margin-right:10px;
+    margin-top : 5px;
+    margin-bottom: 20px;*/
+    grid-column: 3/span1;
+    /*grid-column: 2/span4;*/
+
+}
+#Material>h4
+{
+    text-align: center;
+}
+
+#StepTop
+{
+    /*grid-column: 1/span4;*/
+    font-family: cursive;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-Top: 25px;
+    
+    grid-column: 2/span4;
+}
+#StepTop > h3
+{
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    border:dotted 5px rgb(211, 175, 108);
+}
+#ServeWith
+{
+    font-size: 110%;
+    font-family: cursive;
+
+    border: dotted rgb(211, 175, 108);
+    border-radius: 15px;
+    width: 250px;
+    height: 310px;
+
+    /*margin-right:10px;
+    margin-top : 70px;
+    margin-bottom: 15px;*/
+    grid-column: 3/1/span2;
+
+}
+#ServeTop
+{
+    font-size: 110%;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 180%;
+    font-family: cursive;
+
+    color: rgb(255, 255, 255);
+    background-color: burlywood;
+
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border:double 10px;
+    
+}
+h4
+{
+    text-decoration: underline;
+    font-size: 130%;
+}
+
+#source
+{
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1024px) and (min-height: 1366px)
+{
+	.grid-container 
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        width: fit-content;
+		  
+	}
+
+    #header
+    {
+	grid-column: 1 / 1 / 1 span3;
+    }
+
+    #Pic
+    {
+    /*grid-column: 1/span2;
+    text-align: center;*/
+    }
+
+    #Material
+    {
+    grid-column: 3/span1;
+    margin-right:10px;
+    margin-top : 5px;
+    margin-bottom: 20px;
+    }
+
+    #Material>h4
+    {
+    /*margin-left: 500px;*/
+    }
+
+    #StepTop
+    {
+    grid-column: 2/span1;
+    }
+
+    #ServeWith
+    {
+        grid-column: 4/span2/1;
+        margin-right:10px;
+        margin-top : 70px;
+        margin-bottom: 15px;
+    }
+
+
+    #S1
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+
+    #S2
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+    border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 414px) and (max-width: 736px)
+{
+	.grid-container 
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        width: fit-content;
+		 
+	}
+	#header
+    {
+		grid-column: 1 / 1/ 3;
+	}
+	#Material
+    {
+        grid-column: 2/3;
+	}
+    #ServeWith
+    {
+       
+    }   
+    #StepTop
+    {
+        grid-column: 3/span4/1;
+    }
+    .FourStep
+    {
+        margin-Top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    #PicTwo
+    {
+        position: relative;
+        text-align: center;
+        grid-column: 1/span4;
+    }
+    #S1
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+
+    #S2
+    {
+    width: 40%;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+
+}

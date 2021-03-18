@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+	</head>
+	<body>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		
+		
+			<div id = "Allbox">
+				<h1>Square Game</h1>
+				Enter number of box:
+				<input type="text" name="numbox" id="numbox"> 
+				<br>Select Color
+
+				<select name="color" id = "color">
+  					<option value="red">Red</option>
+  					<option value="blue">Blue</option>
+  					<option value="green">Green</option>
+				</select>
+				
+				<br><br>
+
+				<button id="start">Start</button><br><br>
+				<div id="timerClock"> Time Left<div id="clock"></div>
+					
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+
+		<div id="game-container">
+			<div id="game-layer"></div>
+		</div>
+	
+	</body>
+</html>

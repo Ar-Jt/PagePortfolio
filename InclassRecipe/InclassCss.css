@@ -1,0 +1,168 @@
+html
+{
+    background: linear-gradient(rgb(252, 253, 221), rgb(228, 197, 172));
+}
+
+h1
+{
+    font-size: 250%;
+    font-family: cursive;
+
+    color: rgb(255, 255, 255);
+    background-color: burlywood;
+
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border:double 10px;
+}
+
+.OutMaterial
+{
+    font-size: 100%;
+    font-family: cursive;
+
+    width: 300px;
+    margin: auto;
+    border: dotted rgb(211, 175, 108);
+    border-radius: 15px;
+    width: 700px;
+    height: 350px;
+    /*padding: 150px;*/
+}
+
+h4
+{
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+#M
+{
+    width: 30%;
+
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: right;
+    float: right;
+    /*position: relative;*/
+    margin-right: 50px;
+    margin-top: 20px;
+
+    border-radius: 5px;
+}
+
+.StepTop
+{
+
+    font-size: 125%;
+    font-family: cursive;
+
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 900px;
+
+    background-color: burlywood;
+    box-shadow: 0px 5px rgb(243, 215, 164);
+}
+.FourStep
+{
+    font-family: cursive;
+    font-size: 108%;
+    margin-left: 50px;
+    margin-right: 40px;
+
+    border-bottom: 25px dotted rgb(255, 242, 224);
+}
+
+.allS
+{
+
+}
+.Serve
+{
+    font-size: 125%;
+    font-family: cursive;
+
+    text-align: center;
+    
+    margin-left: 110px;
+    margin-right: 900px;
+
+    background-color: burlywood;
+    box-shadow: 0px 5px rgb(243, 215, 164);
+}
+
+.InServe
+{
+    font-size: 105%;
+    font-family: cursive;
+    margin-left: 50px;
+    margin-right: 40px;
+
+    
+}
+
+.InS1
+{
+    margin-left: 250px;
+}
+.InS2
+{
+    margin-left: 460px;
+}
+.InS3
+{
+    margin-left: 520px;
+}
+.InS4
+{
+    margin-left: 590px;
+}
+.InS5
+{
+    margin-left: 650px;
+}
+
+
+#S1
+{    
+    display: flex;
+    flex-wrap: wrap;
+
+    float: left;
+    width: 15%;
+    border: solid 5px wheat ;
+}
+#S2
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    float: left;
+    width: 15%;
+    border: solid 5px rgb(252, 225, 175) ;
+    margin-left: 2px;
+}
+#S3
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 19%;
+    float: right;
+
+}
+
+.source
+{
+    font-size: 110%;
+    font-family: cursive;
+    text-align: center;
+
+    border-Top: 25px dotted rgb(255, 242, 224);
+    padding-top: 20px;
+
+}

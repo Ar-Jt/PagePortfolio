@@ -1,0 +1,68 @@
+html
+{
+    background-color: rgba(39, 39, 39, 0.945);
+}
+#Top
+{
+    
+    text-align: center;
+
+    font-size: 50px; 
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(68, 0, 255, 0.705);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Regisform
+{
+    margin-top: 100px;
+    margin-left: 490px;
+    margin-right: 490px;
+
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-top: 1px;
+    background-color: rgba(39, 39, 39, 0.568);
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#inform
+{
+    margin-left: 20px;
+    
+
+}
+
+
+#Require
+{
+    text-align: right;
+    font-size: 13px;
+
+    margin-right: 3px;
+    margin-top: 7px;
+}
+#Regis
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#usepass
+{
+    padding-top: 5px;
+}
+#Repassword
+{
+    margin-bottom: 15px;
+}
+
+#TwoBotton
+{
+    text-align: center;
+
+    margin-top: 10px;
+}
